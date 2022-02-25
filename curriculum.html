@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Examen recuperacio 2eval</title>
+</head>
+<body>
+    <header>
+        <h3 class="titulo">STEVE JOBS</h3>
+        <div class="menu">
+            <a class="menu" href="./index.html">Home</a> |Productos <a  href="./curriculum.html">Envia tu CV</a> |<a href="https://mestreacasa.gva.es/web/ieselgrao">Institut</a>
+        </div>
+    </header>
+
+    <form   action="recepcio.php">
+        <h4>Emplena les teues dades</h4>
+
+        <label for="nom">Nom:</label>
+        <input type="text"  id="nom">
+
+        <label for="cognom">Cognom</label>
+        <input type="text" id="cognom">
+        <br>
+        <br>
+
+        <label for="data">Data naixement:</label>
+        <input type="date" id="data">
+
+
+        <label for="email">email</label>
+        <input type="text">
+        <br>
+        <br>
+        
+        <p>Genere: <label for="masculi">Masculi</label>   <input type="radio" name="" id="masculi"><label for="femeni">Femeni</label><input type="radio" id="femeni"><label for="neutre">Neutre</label><input type="radio" name=" id="neutre"></p>
+
+        <label for="lista">Llenguatge preferit</label>
+
+        <select name="" id="lista"> 
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+            <option value="php">PHP</option>
+            <option value="jsp">JSP</option>
+        </select>
+        <br>
+        <br>
+     <input type="reset" value="Borrar">
+    <input type="submit" value="enviar">
+    </form>
+    <BR></BR>
+    <div class="servicio">
+        <br>
+        <hr>
+        <h4>Aplicaciones Web. A su <span class="txt-servicio">servicio</span>  de <span class="txt-lunes-a-viernes">lunes a viernes </span>  siempre</h4>
+    </div>
+</body>
+</html>
